@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+}
+
+video {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.sombreamento {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+  z-index: 1;
+}
+.menu {
+  width: 20%;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 7%;
+  display: flex;
+  color: white;
+  z-index: 2;
+}
+.icon {
+  padding: 1%;
+  text-shadow: 2px 2px 5px black;
+}
+.menu-texto {
+  font-size: 1.6em;
+  padding-left: 3%;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+}
+.texto-1 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-family: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  font-size: 2.0em;
+  z-index: 2;
+}
+.img-gt3 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.imagem-gt3 {
+  position: absolute;
+  width: 85%;
+  height: 350px;
+  bottom: 300px;
+  left: 50px;
+  z-index: 4;
+}
+
+.texto-2 {
+  position: absolute;
+  font-size: 12.0em;
+  bottom: 400px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  left: 40%;
+  margin: 0;
+}
