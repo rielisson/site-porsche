@@ -28,24 +28,25 @@ video {
   z-index: 1;
 }
 .menu {
-  width: 20%;
-  height: 200px;
   position: absolute;
   top: 30px;
   left: 7%;
   display: flex;
   color: white;
   z-index: 2;
+  display: flex;
 }
 .icon {
-  padding: 1%;
   text-shadow: 2px 2px 5px black;
+  position: relative;
+  top: 15%;
 }
 .menu-texto {
-  font-size: 1.6em;
-  padding-left: 3%;
   font-weight: bold;
   text-shadow: 2px 2px 5px black;
+  position: relative;
+  padding-left: 15%;
+  top: 5px;
 }
 .texto-1 {
   position: absolute;
@@ -82,4 +83,85 @@ video {
   text-shadow: 2px 2px 5px black;
   left: 40%;
   margin: 0;
+}
+/* fim do hearder */
+
+/* inicio dos cards info */
+
+.cards-info {
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.cards {
+  position: relative;
+  justify-content: space-evenly;
+}
+.cards img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10%;
+  padding-right: 5%;
+}
+
+.cards p {
+  position: absolute;
+  top: 45%;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-left: 5%;
+  text-shadow: 2px 2px 5px black;
+}
+.cards .material-symbols-outlined {
+  position: absolute;
+  top: 45%;
+  right: 7%;
+  text-shadow: 2px 2px 5px black;
+}
+/* final dos cards */
+
+/* inicio do estilo dos cards modelos */
+
+.modelos {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: absolute;
+}
+.modelos-titulo {
+  text-align: center;
+  justify-content: center;
+
+}
+.cards-modelos {
+ 
+}
+.cards-modelos-imgs {
+  border-radius: 20px;
+  height: 700px;
+}
+.cards-modelo-texto-1 {
+  position: relative;
+  bottom: 87%;
+  left: 5%;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.0em;
+  color: white;
+}
+.cards-modelo-texto-2 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  bottom: 28%;
+  position: relative;
+  width: 515px;
+  padding: 5%;
 }
